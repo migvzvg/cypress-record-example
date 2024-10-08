@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
-    "cypress:run": "cypress run",
+    "cypress:run": "cypress run --component",
+    "cypress:record": "cypress run --component --record --key [organization-key]",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
@@ -15,6 +16,12 @@
   "author": "Cypress-io",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "^13.14.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.8",
+    "@vitejs/plugin-react": "^4.3.2",
+    "cypress-real-events": "^1.13.0"
   },
   "repository": {
     "type": "git",
