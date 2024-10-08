@@ -1,3 +1,8 @@
+Description of the error.
+
+The test passes without problems when using the headless version "cypress:run", however when the recording option is enabled ("cypress:record") the test fails because the focus remains on the focused component, probably due to an intentional focus trap.
+
+
 # cypress-test-tiny
 
 > Tiny Cypress E2E test case
