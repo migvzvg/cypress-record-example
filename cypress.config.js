@@ -2,7 +2,7 @@ module.exports = {
   e2e: {
     setupNodeEvents(on, config) {},
   },
-  projectId: "[projectIt-Organization]",
+  projectId: "[projectId-Organization]",
   component: {
     devServer: {
       framework: "react",
